@@ -38,6 +38,7 @@ div#navigation {
 
 /*div*/.image {
 	background-image: url('images/man.jpg');
+	opacity: 0.6;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #cccccc;
@@ -47,7 +48,11 @@ div#navigation {
 
 p.text {
 	padding: 30% 0 30% 3%;
-	color: #000000; 
+	color: #ffffff;
+	text-shadow: 2px 2px #000000; 
+	/*due to used image
+	so that text can be
+	readable*/
 }
 
 font.style {
