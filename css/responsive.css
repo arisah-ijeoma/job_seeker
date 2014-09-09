@@ -1,0 +1,91 @@
+/*@media screen and (max-width: 550px) {
+	body {
+		background-color: blue;
+	}
+}*/
+
+@media screen and (max-width: 550px) {
+
+	nav {
+		display: block;
+		padding: 0;
+	}
+
+	div#navigation {
+		display: none;
+	}
+
+	div.image {
+		background-image: url('../images/man.jpg');
+		/*margin-top: -50%;*/
+		opacity: 0.5;
+	}
+
+	p.text {
+		margin-top: 150px;
+		color: black;
+		text-shadow: none;
+		text-align: right;
+		width: 68%;
+	}
+
+	div.footer_1 {
+		position: relative;
+		bottom: 8%;
+	}
+
+	p.respond {
+		line-height: 1em;
+	}
+
+	font.style {
+		/*position: absolute;*/
+		font-size: 1.5em;
+	}
+
+	font.height {
+		line-height: 1em;
+	}
+
+	div.upper {
+		font-size: 1em;
+		/*line-height: 1em;*/
+	}
+
+	div#hidedot {
+		display: none;
+	}
+
+	div.lower_item {
+		font-size: 0.5em;
+	}
+
+	div.footer_2 {
+		padding-top: 60px;
+	}
+
+	div.center {
+		display: -webkit-flex;
+		-webkit-flex-wrap: wrap;
+		-webkit-justify-content: center;
+	}
+
+	div#arrow {
+		display: none;
+	}
+
+	div.snip_1 {
+		width: 20%;
+		display: -webkit-flex;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	div.last {
+		width: 100%;
+	}
+
+	div.end {
+		width: 100%;
+	}
+}
